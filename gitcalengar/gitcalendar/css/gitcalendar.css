@@ -1,5 +1,5 @@
 .gitcalendar {
-    font-family: SourceHanSans-Medium;
+    font-family: myfont !important;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
     min-height: 120px;
@@ -168,10 +168,10 @@ h2.f4.text-normal.mb-3 {
 			z-index:9999;
 			display:inline;
             display:none;
-        width: 200px;
-        height: 40px;
-        position: relative;
-        padding: 5px 0;
+            width: 200px;
+            height: 40px;
+            position: relative;
+            padding: 5px 0;
             background: rgba(0, 0, 0, 0.8);
             border-radius: 8px;
             text-align: center;

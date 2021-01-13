@@ -1,4 +1,4 @@
-const gitcalendar = new Vue({
+var gitcalendar = new Vue({
     el: '#gitcalendar',
     data: {
         simplemode: true, //打开时使用canvas绘制gitgitcalendar，关闭时使用svg绘制gitgitcalendar
@@ -70,7 +70,7 @@ const gitcalendar = new Vue({
         },
     }
 });
-let githubapiurl = "https://githubapi.ryanchristian.dev/user/" + gitcalendar.user;
+var githubapiurl = "https://githubapi.ryanchristian.dev/user/" + gitcalendar.user;
 
 //canvas绘图
 function responsiveChart() {
