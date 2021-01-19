@@ -63,7 +63,7 @@ var calendar = new Vue({
         },
     }
 })
-var githubapiurl = "https://githubapi.ryanchristian.dev/user/" + calendar.user
+var githubapiurl = "https://py-gitcalendar.vercel.app/api?/" + calendar.user
 $(function () {
     $.ajax({
         type: "GET",
