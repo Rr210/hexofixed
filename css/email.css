@@ -8,7 +8,7 @@
 }
 /* top-img隐藏 */
 #page-header {
-  background-image: url(https://api.mr90.top/my/dm.php) !important;
+  background-image: url(https://cdn.jsdelivr.net/gh/Rr210/image@master/hexo/4/191055-1608030655688f.webp) !important;
 }
 /* 宽度小于530px隐藏信封 */
 @media screen and (max-width: 530px) {
